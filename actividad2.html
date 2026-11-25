@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Actividad 2 | Identificación de la CPU - UNETI</title>
+  <link rel="stylesheet" href="./reflexión/css/styles.css">
+</head>
+<body class="bg-arquitectura">
+  <div class="wrapper">
+
+    <!-- Barra de Navegación -->
+    <nav class="navbar">
+      <a href="index.html" class="brand">
+        <img src="./reflexión/img/logo.jpg" alt="Logo UNETI" class="brand-logo">
+        <span>Arquitectura Del Computador</span>
+      </a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="actividad1.html">Actividad 1</a>
+        <a href="actividad2.html" class="active">Actividad 2</a>
+        <a href="actividad3.html">Actividad 3</a>
+      </div>
+    </nav>
+
+    <!-- CONTENEDOR 1: ENCABEZADO Y FECHA DE CREACIÓN -->
+    <section class="glass-panel">
+      <div class="card-top-row" style="margin-bottom: 12px;">
+        <span class="badge" style="margin-bottom: 0;">
+          <span class="badge-dot"></span>
+          VAC-SD1 • Identificación de la CPU (v0.1.0)
+        </span>
+        <span class="activity-date">📅 Fecha de creación: 23/11/2026</span>
+      </div>
+
+      <h1 class="hero-title" style="font-size: 2.15rem; margin-top: 12px;">
+        Identificación y Análisis Técnico de <span>la CPU</span>
+      </h1>
+      <p class="hero-subtitle" style="margin-bottom: 0;">
+        Revisión a nivel de software de tres computadores diferentes, comparativa de características técnicas y tipo de zócalo, recomendaciones de uso y cuidado, y registro fotográfico por equipo.
+      </p>
+    </section>
+
+    <!-- CONTENEDOR 2: TABLA COMPARATIVA DE LOS 3 EQUIPOS -->
+    <section class="glass-panel">
+      <span class="badge">
+        <span class="badge-dot"></span>
+        Tabla Comparativa
+      </span>
+      <h2 style="font-size: 1.5rem; margin-bottom: 8px;">Comparativa de Procesadores (3 Equipos)</h2>
+      <p style="color: var(--text-muted); margin-bottom: 16px;">
+        Información técnica verificada a nivel de software (CPU-Z / Información del Sistema) en tres equipos distintos.
+      </p>
+
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Equipo</th>
+              <th>Marca y Modelo</th>
+              <th>Generación</th>
+              <th>Tipo de Zócalo</th>
+              <th>Otras Características Técnicas</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-label="Equipo"><strong>Equipo 1</strong></td>
+              <td data-label="Marca y Modelo">Intel Core i5 <br><small>(Equipo Portátil / Verificado por software)</small></td>
+              <td data-label="Generación">Generación Intel Core i5 (Arquitectura x86-64)</td>
+              <td data-label="Tipo de Zócalo">Socket / BGA según placa base</td>
+              <td data-label="Otras Características">Múltiples núcleos e hilos con soporte de virtualización y ejecución de instrucciones en paralelo, caché multinivel y control térmico dinámico.</td>
+            </tr>
+            <tr>
+              <td data-label="Equipo"><strong>Equipo 2</strong></td>
+              <td data-label="Marca y Modelo">Intel Core i7 <br><small>(Equipo de Escritorio / Torre)</small></td>
+              <td data-label="Generación">Generación Intel Core i7 (Arquitectura x86-64)</td>
+              <td data-label="Tipo de Zócalo">Zócalo LGA / Plataforma de escritorio</td>
+              <td data-label="Otras Características">Alto rendimiento multitarea, soporte para caché L3 amplia, ejecución fuera de orden y disipación térmica activa mediante disipador y ventilador.</td>
+            </tr>
+            <tr>
+              <td data-label="Equipo"><strong>Equipo 3</strong></td>
+              <td data-label="Marca y Modelo">Intel Core 2 Duo <br><small>(PC Lenovo ThinkCentre)</small></td>
+              <td data-label="Generación">Arquitectura Intel Core (65 nm / 45 nm)</td>
+              <td data-label="Tipo de Zócalo">LGA 775</td>
+              <td data-label="Otras Características">2 núcleos / 2 hilos, caché L2 compartida, bus frontal (FSB) y chasis de escritorio compacto. Ideal para ofimática ligera y diagnóstico básico.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- CONTENEDOR 3: RECOMENDACIONES DE USO Y CUIDADO -->
+    <section class="glass-panel">
+      <span class="badge">
+        <span class="badge-dot"></span>
+        Mantenimiento y Prevención
+      </span>
+      <h2 style="font-size: 1.5rem; margin-bottom: 14px;">Recomendaciones de Uso y Cuidado</h2>
+
+      <ul style="padding-left: 22px; color: var(--text-secondary); display: grid; gap: 10px;">
+        <li><strong>Gestión térmica y pasta disipadora:</strong> Limpiar el polvo acumulado en disipadores y ventiladores periódicamente y renovar la pasta térmica para evitar sobrecalentamientos y pérdida de rendimiento (<em>thermal throttling</em>).</li>
+        <li><strong>Ventilación y ubicación:</strong> Mantener libres las rejillas de ventilación, evitar usar portátiles sobre superficies blandas (camas o almohadas) y asegurar buen flujo de aire en gabinetes de escritorio.</li>
+        <li><strong>Estabilidad eléctrica:</strong> Conectar los equipos a reguladores de voltaje o sistemas UPS para proteger la placa base, los reguladores de voltaje (VRM) y el procesador frente a picos o caídas de tensión.</li>
+        <li><strong>Buenas prácticas de software y manipulación:</strong> Evitar procesos innecesarios que saturen la CPU de forma continua, mantener el sistema actualizado y, en caso de intervención física, descargar la electricidad estática antes de manipular componentes.</li>
+      </ul>
+    </section>
+
+    <!-- CONTENEDOR 4: EVIDENCIA FOTOGRÁFICA (3 IMÁGENES POR CADA PC) -->
+    <section class="glass-panel">
+      <span class="badge">
+        <span class="badge-dot"></span>
+        Registro Fotográfico
+      </span>
+      <h2 style="font-size: 1.5rem; margin-bottom: 6px;">Fotografías por Computador (3 Imágenes por Equipo)</h2>
+      <p style="color: var(--text-muted); margin-bottom: 22px;">
+        Registro fotográfico del estudiante con cada equipo evaluado, revisión interna/periférica y verificación del entorno operativo.
+      </p>
+
+      <!-- Sub-contenedor Equipo 1 (3 imágenes) -->
+      <div style="margin-bottom: 28px;">
+        <h3 style="color: var(--cyan); font-size: 1.15rem; margin-bottom: 12px;">💻 Equipo 1 — Intel Core i5</h3>
+        <div class="photos-grid">
+          <div class="photo-box">
+            <img src="./reflexión/img/1pc.jpeg" alt="Equipo 1 Intel Core i5 - Vista del equipo">
+            <p style="font-size: 0.85rem; color: var(--text-muted);">Vista general del Equipo 1.</p>
+          </div>
+          <div class="photo-box">
+            <img src="./reflexión/img/3pc.jpeg" alt="Equipo 1 Intel Core i5 - Revisión e inspección">
+            <p style="font-size: 0.85rem; color: var(--text-muted);">Inspección y manipulación técnica del equipo.</p>
+          </div>
+          <div class="photo-box">
+            <img src="./reflexión/img/2pc.jpeg" alt="Equipo 1 Intel Core i5 - Verificación en pantalla">
+            <p style="font-size: 0.85rem; color: var(--text-muted);">Verificación del sistema y diagnóstico en equipo.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sub-contenedor Equipo 2 (3 imágenes) -->
+      <div style="margin-bottom: 28px;">
+        <h3 style="color: var(--cyan); font-size: 1.15rem; margin-bottom: 12px;">🖥️ Equipo 2 — Intel Core i7</h3>
+        <div class="photos-grid">
+          <div class="photo-box">
+            <img src="./reflexión/img/10pc.jpeg" alt="Equipo 2 Intel Core i7 - Chasis e identificación">
+            <p style="font-size: 0.85rem; color: var(--text-muted);">Identificación externa del Equipo 2.</p>
+          </div>
+          <div class="photo-box">
+            <img src="./reflexión/img/6pc.jpeg" alt="Equipo 2 Intel Core i7 - Revisión interna">
+            <p style="font-size: 0.85rem; color: var(--text-muted);">Revisión de componentes internos y refrigeración.</p>
+          </div>
+          <div class="photo-box">
+            <img src="./reflexión/img/7pc.jpeg" alt="Equipo 2 Intel Core i7 - Arquitectura interna">
+            <p style="font-size: 0.85rem; color: var(--text-muted);">Vista interna de placa base, disipador y conexiones.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sub-contenedor Equipo 3 (3 imágenes) -->
+      <div>
+        <h3 style="color: var(--cyan); font-size: 1.15rem; margin-bottom: 12px;">🖥️ Equipo 3 — PC Lenovo ThinkCentre (Intel Core 2 Duo)</h3>
+        <div class="photos-grid">
+          <div class="photo-box">
+            <img src="./reflexión/img/4pc.jpeg" alt="Equipo 3 Lenovo ThinkCentre - Chasis">
+            <p style="font-size: 0.85rem; color: var(--text-muted);">Chasis Lenovo ThinkCentre e identificación del procesador.</p>
+          </div>
+          <div class="photo-box">
+            <img src="./reflexión/img/8pc.jpeg" alt="Equipo 3 Lenovo ThinkCentre - Apertura de gabinete">
+            <p style="font-size: 0.85rem; color: var(--text-muted);">Apertura y evaluación física del gabinete.</p>
+          </div>
+          <div class="photo-box">
+            <img src="./reflexión/img/11pc.jpeg" alt="Equipo 3 Lenovo ThinkCentre - Interior">
+            <p style="font-size: 0.85rem; color: var(--text-muted);">Distribución interna de hardware en formato compacto.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTENEDOR 5: REFLEXIÓN DE APRENDIZAJE INDIVIDUAL (PLANTILLA A) -->
+    <section class="glass-panel">
+      <div class="reflection-box">
+        <h3>💡 Reflexión de Aprendizaje Individual [VAC-SD1 — Actividad 2]</h3>
+        <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 12px;">
+          <strong>Estudiante:</strong> Zambrano Avendaño, Oscar Yván &nbsp;|&nbsp;
+          <strong>C.I.:</strong> V-31.269.474 &nbsp;|&nbsp;
+          <strong>Fecha de publicación:</strong> 2026-11-23
+        </p>
+        <p style="color: var(--text-secondary); margin-bottom: 10px;">
+          <strong>Competencia técnica consolidada:</strong> Identifiqué y comparé procesadores de distintos equipos a nivel de software y estructura física, reconociendo cómo cambian los zócalos, el caché, el consumo energético y la disipación térmica entre arquitecturas.
+        </p>
+        <p style="color: var(--text-secondary); margin-bottom: 10px;">
+          <strong>Obstáculo encontrado y criterio de resolución:</strong> Contrastar equipos de distintas épocas y formatos (portátil, torre y chasis compacto) exige verificar datos exactos sin confundir modelos ni zócalos; lo resolví cruzando la información visual/física de cada equipo con su identificación técnica y manteniendo medidas preventivas adecuadas a cada diseño.
+        </p>
+        <p style="color: var(--text-secondary); margin-bottom: 0;">
+          <strong>Aplicación profesional en TI:</strong> En soporte técnico e inventario de infraestructura, auditar correctamente la CPU y el zócalo evita compras incompatibles de repuestos, previene fallas térmicas por falta de mantenimiento y permite asignar cada equipo a cargas de trabajo acordes a su capacidad real.
+        </p>
+      </div>
+    </section>
+
+    <!-- Navegación entre páginas -->
+    <div class="btn-group" style="justify-content: space-between; margin-top: 10px;">
+      <a href="actividad1.html" class="btn-outline">← Anterior: Actividad 1</a>
+      <a href="actividad3.html" class="btn-cyan" style="width: auto;">Siguiente: Actividad 3 →</a>
+    </div>
+
+   
+  </div>
+</body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Actividad 3 | Herramientas de Arquitectura - UNETI</title>
+  <link rel="stylesheet" href="./reflexión/css/styles.css">
+</head>
+<body class="bg-arquitectura">
+  <div class="wrapper">
+
+    <!-- Barra de Navegación -->
+    <nav class="navbar">
+      <a href="index.html" class="brand">
+        <img src="./reflexión/img/logo.jpg" alt="Logo UNETI" class="brand-logo">
+        <span>Arquitectura Del Computador</span>
+      </a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="actividad1.html">Actividad 1</a>
+        <a href="actividad2.html">Actividad 2</a>
+        <a href="actividad3.html" class="active">Actividad 3</a>
+      </div>
+    </nav>
+
+    <!-- CONTENEDOR 1: ENCABEZADO Y FECHA DE CREACIÓN -->
+    <section class="glass-panel">
+      <div class="card-top-row" style="margin-bottom: 12px;">
+        <span class="badge" style="margin-bottom: 0;">
+          <span class="badge-dot"></span>
+          VAC-SD1 • Herramientas de Arquitectura (v0.1.0)
+        </span>
+        <span class="activity-date">📅 Fecha de creación: 23/11/2026</span>
+      </div>
+
+      <h1 class="hero-title" style="font-size: 2.15rem; margin-top: 12px;">
+        Herramientas de <span>Arquitectura del Computador</span>
+      </h1>
+      <p class="hero-subtitle" style="margin-bottom: 0;">
+        Compendio de herramientas fundamentales a nivel de hardware y software empleadas en el diagnóstico, ensamblaje, medición y análisis de sistemas computacionales.
+      </p>
+    </section>
+
+    <!-- CONTENEDOR 2: TABLA DE HERRAMIENTAS (HARDWARE Y SOFTWARE) -->
+    <section class="glass-panel">
+      <span class="badge">
+        <span class="badge-dot"></span>
+        Catálogo Técnico
+      </span>
+      <h2 style="font-size: 1.5rem; margin-bottom: 8px;">Tabla de Herramientas de Hardware y Software</h2>
+      <p style="color: var(--text-muted); margin-bottom: 16px;">
+        Cada herramienta incluye su imagen de referencia, nombre, clasificación y aplicación práctica en arquitectura del computador.
+      </p>
+
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Imagen</th>
+              <th>Nombre</th>
+              <th>Clasificación</th>
+              <th>Aplicación</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-label="Imagen"><img src="./reflexión/img/pulsera_antiestatica.jpg" alt="Pulsera antiestática" class="tool-img"></td>
+              <td data-label="Nombre"><strong>Pulsera Antiestática</strong></td>
+              <td data-label="Clasificación">Hardware</td>
+              <td data-label="Aplicación">Conecta al operador a tierra física para disipar descargas electrostáticas y proteger circuitos integrados, procesadores, memorias RAM y placas base durante la manipulación.</td>
+            </tr>
+            <tr>
+              <td data-label="Imagen"><img src="./reflexión/img/multimetro_digital.jpg" alt="Multímetro digital" class="tool-img"></td>
+              <td data-label="Nombre"><strong>Multímetro Digital</strong></td>
+              <td data-label="Clasificación">Hardware</td>
+              <td data-label="Aplicación">Mide voltajes de alimentación (3.3 V, 5 V, 12 V en fuentes ATX), continuidad eléctrica, resistencia y estado de carga de baterías CMOS.</td>
+            </tr>
+            <tr>
+              <td data-label="Imagen"><img src="./reflexión/img/Destornilladores.jpg" alt="Kit de destornilladores de precisión" class="tool-img"></td>
+              <td data-label="Nombre"><strong>Destornilladores de Precisión</strong></td>
+              <td data-label="Clasificación">Hardware</td>
+              <td data-label="Aplicación">Permiten el ensamblaje y desmontaje seguro de gabinetes, disipadores, placas madre, unidades de almacenamiento y tornillería delicada sin dañar las cabezas.</td>
+            </tr>
+            <tr>
+              <td data-label="Imagen"><img src="./reflexión/img/soplador.jpg" alt="Soplador o aire comprimido" class="tool-img"></td>
+              <td data-label="Nombre"><strong>Soplador de Aire / Limpieza Técnica</strong></td>
+              <td data-label="Clasificación">Hardware</td>
+              <td data-label="Aplicación">Remueve polvo y partículas acumuladas en ventiladores, aletas de disipación y ranuras de expansión para mantener temperaturas óptimas de operación.</td>
+            </tr>
+            <tr>
+              <td data-label="Imagen"><img src="./reflexión/img/2026.jpg" alt="CPU-Z" class="tool-img"></td>
+              <td data-label="Nombre"><strong>CPU-Z</strong></td>
+              <td data-label="Clasificación">Software</td>
+              <td data-label="Aplicación">Identifica y muestra información detallada de la CPU (modelo, generación, núcleos, hilos, caché, litografía), tipo de zócalo, placa base y memoria RAM.</td>
+            </tr>
+            <tr>
+              <td data-label="Imagen"><img src="./reflexión/img/monitor.jpg" alt="HWMonitor" class="tool-img"></td>
+              <td data-label="Nombre"><strong>HWMonitor</strong></td>
+              <td data-label="Clasificación">Software</td>
+              <td data-label="Aplicación">Lee en tiempo real los sensores térmicos, voltajes, consumos y velocidades de ventiladores para detectar sobrecalentamientos o fallas de alimentación.</td>
+            </tr>
+            <tr>
+              <td data-label="Imagen"><img src="./reflexión/img/Cristal disk.jpg" alt="CrystalDiskInfo" class="tool-img"></td>
+              <td data-label="Nombre"><strong>CrystalDiskInfo</strong></td>
+              <td data-label="Clasificación">Software</td>
+              <td data-label="Aplicación">Consulta los atributos S.M.A.R.T., estado de salud, temperatura y horas de uso de discos duros mecánicos (HDD) y unidades de estado sólido (SSD / NVMe).</td>
+            </tr>
+            <tr>
+              <td data-label="Imagen"><img src="./reflexión/img/Memtest.jpg" alt="MemTest86" class="tool-img"></td>
+              <td data-label="Nombre"><strong>MemTest86</strong></td>
+              <td data-label="Clasificación">Software</td>
+              <td data-label="Aplicación">Ejecuta pruebas exhaustivas de lectura/escritura sobre la memoria RAM para detectar celdas defectuosas o errores de direccionamiento que causan inestabilidad.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- CONTENEDOR 3: REFLEXIÓN DE APRENDIZAJE INDIVIDUAL (PLANTILLA A) -->
+    <section class="glass-panel">
+      <div class="reflection-box">
+        <h3>💡 Reflexión de Aprendizaje Individual [VAC-SD1 — Actividad 3]</h3>
+        <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 12px;">
+          <strong>Estudiante:</strong> Zambrano Avendaño, Oscar Yván &nbsp;|&nbsp;
+          <strong>C.I.:</strong> V-31.269.474 &nbsp;|&nbsp;
+          <strong>Fecha de publicación:</strong> 2026-11-23
+        </p>
+        <p style="color: var(--text-secondary); margin-bottom: 10px;">
+          <strong>Competencia técnica consolidada:</strong> Clasifiqué y analicé herramientas de hardware y software aplicadas a la arquitectura del computador, diferenciando la prevención física/eléctrica (pulsera antiestática, multímetro, destornilladores, soplador) del diagnóstico y monitoreo por software (CPU-Z, HWMonitor, CrystalDiskInfo, MemTest86).
+        </p>
+        <p style="color: var(--text-secondary); margin-bottom: 10px;">
+          <strong>Obstáculo encontrado y criterio de resolución:</strong> Seleccionar y organizar herramientas representativas sin mezclar funciones de medición eléctrica con utilidades de diagnóstico lógico requiere precisar qué falla resuelve cada recurso; lo abordé agrupando primero el instrumental físico de taller y luego las herramientas de verificación de CPU, sensores, almacenamiento y RAM.
+        </p>
+        <p style="color: var(--text-secondary); margin-bottom: 0;">
+          <strong>Aplicación profesional en TI:</strong> En soporte técnico y mantenimiento preventivo, aplicar esta selección ordenada evita daños por electricidad estática o tornillería inadecuada, acelera el diagnóstico de fallas térmicas o de memoria/almacenamiento y estandariza las intervenciones sobre los equipos.
+        </p>
+      </div>
+    </section>
+
+    <!-- Navegación entre páginas -->
+    <div class="btn-group" style="justify-content: space-between; margin-top: 10px;">
+      <a href="actividad2.html" class="btn-outline">← Anterior: Actividad 2</a>
+      <a href="index.html" class="btn-cyan" style="width: auto;">Volver al Portafolio ✓</a>
+    </div>
+
+  </div>
+</body>
+</html>
